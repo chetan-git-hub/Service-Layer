@@ -85,7 +85,7 @@ public class PushToGit {
             //String git_password = null;
             if(configUtil == null){
                 git_username = "chetan-git-hub";
-                git_password = "DevSarojSai@mail";
+                git_password = "";
             } else {
                 git_username = configUtil.getProperty("git_username");
                 git_password = configUtil.getProperty("git_password");
