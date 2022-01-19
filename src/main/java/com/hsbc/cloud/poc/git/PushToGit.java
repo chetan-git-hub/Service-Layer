@@ -33,7 +33,7 @@ public class PushToGit {
     		// then clone
 
     		String git_username = "chetan-git-hub";
-    		String git_password = "DevSarojSai@mail";
+    		String git_password = "";
 
     		System.out.println("Cloning from " + REMOTE_URL + " to " + localPath);
     		try (Git result = Git.cloneRepository().setURI(REMOTE_URL)
